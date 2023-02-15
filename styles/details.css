@@ -1,0 +1,22 @@
+#entityLists {
+    display: flex;
+    justify-content: center;
+}
+
+.politicians {
+    width: 280px;
+    background-color: whitesmoke;
+    border: 4px solid lightslategray;
+    padding: 10px;
+    margin: 10px;
+}
+
+.corporations {
+    width: 280px;
+    background-color: lightgrey;
+    border: 4px solid cornflowerblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+

@@ -10,12 +10,14 @@ const applicationState = {
     corporateDonations: []
 }
 
-const API = "http://localhost.8088"
+const API = "http://localhost:8088"
 
 export const fetchPoliticians = () => {
     return fetch(`${API}/politicians`)
     .then(response => response.json())
-    .then((data) => applicationState.politicians = data)
+    .then((data) => {
+        applicationState.politicians = data
+    })
 }
 
 export const fetchInterests = () => {
@@ -101,3 +103,4 @@ export const getCorporateInterests = () => {
 export const getCorporateDonations = () => {
     return applicationState.corporateDonations.map(cd => ({...cd}))
 }
+
