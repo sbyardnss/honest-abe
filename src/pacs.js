@@ -17,9 +17,9 @@ export const PACS = () => {
                 <div>${pac.address}</div>
             </div>
             <div class="pac__donors">
-                <h2>Donors</h2>
+                <h4>Donors</h4>
                 <ul id="donationsToPacsList">
-                    ${pacDonors(pac)}
+                    ${corporateDonors(pac)}
                 </ul>
             </div>
         </section>`
@@ -29,7 +29,7 @@ export const PACS = () => {
 }
 
 
-const pacDonors = (pacObj) => {
+const corporateDonors = (pacObj) => {
     const corporations = getCorporations()
     const corporateDonations = getCorporateDonations();
     let arrWithDuplicates = []

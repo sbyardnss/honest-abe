@@ -7,10 +7,15 @@
     width: 280px;
     background-color: whitesmoke;
     border: 4px solid lightslategray;
-    padding: 10px;
+    padding: 2px;
     margin: 10px;
 }
 
+.politician {
+    border: 4px solid darkolivegreen;
+    margin: 2px;
+    padding: 10px;
+}
 .corporations {
     width: 280px;
     background-color: lightgrey;
