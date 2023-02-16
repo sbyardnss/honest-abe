@@ -20,3 +20,13 @@
 }
 
 
+#donationsToPacsList {
+    list-style: none;
+}
+
+.pac {
+    background-color: aliceblue;
+    border: 4px solid slategray;
+    padding: 10px;
+    margin: 10px;
+}
