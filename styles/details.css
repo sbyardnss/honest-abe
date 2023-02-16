@@ -4,6 +4,8 @@
 }
 
 .politicians {
+    display: flex;
+    flex-direction: column;
     width: 280px;
     background-color: whitesmoke;
     border: 4px solid lightslategray;
@@ -30,8 +32,13 @@
 }
 
 .pac {
+    width: 280px;
     background-color: aliceblue;
     border: 4px solid slategray;
     padding: 10px;
     margin: 10px;
+}
+
+#fullPolColumn {
+    height: max-content;
 }
